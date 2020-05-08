@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "config:base"
+    "auto_merge:True"
+  ]
+}
