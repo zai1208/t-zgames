@@ -7,7 +7,6 @@ sections:
 - type: document
   path: https://github.com/zai1208/Active-developments
   label: Link to source code for all aps developed
-  match: "**/*"
   read_only: true
 - type: document
   path: site-metadata.json
@@ -54,7 +53,7 @@ use_front_matter_path: false
 file_template: ":filename:"
 build:
   preview_output_directory: public
-  install_dependencies_command: npm install
+  install_dependencies_command: 'npm install gulp '
   preview_docker_image: node:10
   mount_path: "/srv"
   instant_preview_command: npm run forestry:preview
